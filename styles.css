@@ -1,0 +1,115 @@
+/* style.css */
+
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #444;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #4c4eaf;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header P {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #343a40;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex; /* Use Flexbox for the navigation */
+    flex-direction: row; /* Flex items will be arranged from left to right */
+    justify-content: center; /* Center and space out the links evenly */
+    list-style: none; /* Remove bullet points from the list */
+    flex-wrap: wrap;
+    }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+nav a:hover {
+    color: #f3101b;
+    text-decoration: underline;
+    }
+
+section {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+section h2 {
+    color: #4c4eaf;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    }
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+    }
+
+#skills ul {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    list-style: none; 
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 15px; 
+    }
+
+.project {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 25px;
+    margin: 20px auto;
+    width: 300px;
+    background-color: #bbd9f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(77, 76, 76);
+}
+
+.project-img {
+    display: flex;
+    max-width: 100px;
+    height: auto;
+}
+

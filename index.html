@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adam Fellman's Portolio</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Linking to the styles.css file -->
+    </head>
+    <body>
+        <header>
+            <h1>Adam Fellman's Portfolio</h1>
+            <p>The Ultimate Technology Resource</p>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <!-- About Me Section -->
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm a full stack engineer passionate about web development!</p>
+                <img src="Brady.webp" alt="Profile Picture" id="image"> 
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Flex Box</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Design</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>CI/CD Pipelines</li>
+                </ul>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>CSS Project</h3>
+                    <img src="css3.webp" alt="CSS Image" class="project-img">
+                    <p>This is my CSS project.</p>
+                </div>
+                <div class="project">
+                    <h3>Bootstrap Project</h3>
+                    <img src="bootstrap.png" alt="Bootstap Image" class="project-img">
+                    <p>This is my Bootstrap project.</p>
+                </div>
+                <div class="project">
+                    <h3>GitHub Project</h3>
+                    <img src="github.png" alt="GitHub Image" class="project-img">
+                    <p>This is my GitHub project.</p>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <button type="submit">Send</button>
+                </form>
+                <p>Email me at: <a href="mailto:adam.fellman@libertymutual.com">adam.fellman@libertymutual.com</a></p>
+            </section>
+    
+    </main>
+    <footer></footer>
+    </body>
+</html>

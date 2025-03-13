@@ -1,5 +1,3 @@
-/* style.css */
-
 /*CSS Reset*/
 *{
     margin: 0;
@@ -119,7 +117,6 @@ section h2 {
 
 .project:hover {
     background-color: #ee8282;
-    transform: scale(1.1); /* Slightly increase size */
     }
 
 /* Contact section styles */
@@ -182,3 +179,27 @@ section h2 {
     background-color: #3b3da1;
 }
 
+/* Media Query for screens smaller than 768px (tablets and phones) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .item {
+        flex: 1 1 100%; /* Take full width of the container */
+        margin-bottom: 20px; /* Space between stacked items */
+    }
+}
+
+/* Media Query for screens smaller than 480px (phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Reduce padding for very small screens */
+    }
+
+    .item {
+        padding: 15px; 
+        font-size: 0.9rem; 
+    }
+}
